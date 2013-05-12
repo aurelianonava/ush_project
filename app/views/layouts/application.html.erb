@@ -8,7 +8,21 @@
 </head>
 <body>
 
-<%= yield %>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a href="#" class="brand">Animoed</a>
+            <li class="nav">
+              <li><%= link_to "All Cards", cards_path  %>
+            </li>
+
+        </div>
+      </div>
+     </div>
+    <div class="container">
+        <%= yield %>
+    </div>
+
 
 </body>
 </html>
