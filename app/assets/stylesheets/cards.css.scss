@@ -11,3 +11,15 @@
 .cards p {
   margin: 4px 0;
 }
+
+.cards.hover {
+  background: #FAFAFA;
+}
+
+.cards .admin {
+  display: none;
+}
+
+.cards.hover .admin {
+  display: inline;
+}
