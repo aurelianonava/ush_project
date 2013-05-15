@@ -1,5 +1,8 @@
 UshProject::Application.routes.draw do
+  devise_for :users
+
   resources :cards
+  root to: "cards#index"
 
 
   # The priority is based upon order of creation:
