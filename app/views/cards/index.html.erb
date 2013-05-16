@@ -6,6 +6,7 @@
 <% @cards.each do  |card| %>
 
     <div class="cards">
+      <strong><%= card.user.full_name %></strong> <br/>
       <strong><%= card.question %></strong>
       <p><%= card.answer %></p>
       <div class="meta">
