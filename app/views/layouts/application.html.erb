@@ -35,12 +35,20 @@
      </div>
     <div class="container">
       <% if flash[:notice] %>
-          <div class="alert">
+          <div class="alert alert-success">
             <button class="close" data-dismiss="alert">X</button>
             <%= flash[:notice]  %>
 
           </div>
-       <% end %>
+      <% end %>
+
+      <% if flash[:alert] %>
+          <div class="alert alert-error">
+            <button class="close" data-dismiss="alert">X</button>
+            <%= flash[:alert]  %>
+
+          </div>
+      <% end %>
 
       <!--<p class="notice"><%= notice %></p>
       <p class="alert"><%= alert %></p>-->
