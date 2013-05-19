@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="ush_project.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1368609400410" ignored="false" />
     <file path="/Dummy.txt" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1368033747728" ignored="false" />
-    <file path="/application.html.erb" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1368928424226" ignored="false" />
+    <file path="/application.html.erb" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1368977750336" ignored="false" />
     <file path="/application.css" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1368325719376" ignored="false" />
     <file path="/index.html.erb" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1368830655321" ignored="false" />
     <file path="/cards.css.scss" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1368587808815" ignored="false" />
     <file path="/cards.js.coffee" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1368587637464" ignored="false" />
     <file path="/.gitignore" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1368594472833" ignored="false" />
-    <file path="/routes.rb" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1368601806735" ignored="false" />
+    <file path="/routes.rb" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1368977860393" ignored="false" />
     <file path="/20130515072955_devise_create_users.rb" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1368605873317" ignored="false" />
     <file path="/new.html.erb" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1368894825959" ignored="false" />
     <file path="/user.rb" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1368857556925" ignored="false" />
@@ -49,10 +48,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="22" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="33" selection-start="393" selection-end="393" vertical-scroll-proportion="0.39473686">
+            <state line="6" column="44" selection-start="335" selection-end="335" vertical-scroll-proportion="0.19736843">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="61" selection-start="1055" selection-end="1055" vertical-scroll-proportion="-5.125">
               <folding />
             </state>
           </provider>
@@ -84,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130515072955_devise_create_users.rb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20130515090033_add_user_id_to_cards.rb" />
@@ -98,8 +114,9 @@
         <option value="dbtable:/5fd1db21/3f51e924-b02a-422b-a96c-ac831d55b3da/..sqlite_sequence" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -690,16 +707,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/5fd1db21/3f51e924-b02a-422b-a96c-ac831d55b3da/..users">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/5fd1db21/3f51e924-b02a-422b-a96c-ac831d55b3da/..cards">
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
@@ -801,14 +808,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="27" selection-start="1382" selection-end="1382" vertical-scroll-proportion="0.7291667">
+        <state line="28" column="61" selection-start="1055" selection-end="1055" vertical-scroll-proportion="-5.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="22" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="33" selection-start="393" selection-end="393" vertical-scroll-proportion="0.39473686">
+        <state line="6" column="44" selection-start="335" selection-end="335" vertical-scroll-proportion="0.19736843">
           <folding />
         </state>
       </provider>

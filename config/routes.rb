@@ -1,8 +1,14 @@
 UshProject::Application.routes.draw do
   devise_for :users
 
+  devise_scope :user do
+    get 'register', to: 'devise/registrations#new', as: :register
+    get 'login', to: 'devise/sessions#new', as: :login
+  end
+
   resources :cards
   root to: "cards#index"
+
 
 
   # The priority is based upon order of creation:
