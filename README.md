@@ -1,3 +1,13 @@
+New US History Cards Readme File in .md (Markdown Markup Language) format.
+
+From here on, pushed project version will be documented in this Readme.md file.
+
+This is the first application for the US History Cards Project.
+[*U.S. History Cards: History Cards Applicatino*](http://google.com/)
+by [Aureliano Nava](http://codelogico.com/).
+
+
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
