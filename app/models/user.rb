@@ -13,7 +13,7 @@ class User < ActiveRecord::Base
   has_many :cards
 
   def full_name
-    first_name + " " + last_name
+    first_name + " " + last_name + "-- ID #: " + id.to_s
   end
 
 end
