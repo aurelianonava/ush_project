@@ -15,3 +15,7 @@
 body {
     padding-top: 40px;
 }
+
+.alert {
+    padding-top: 10px;
+}
