@@ -6,7 +6,50 @@ This is the first application for the US History Cards Project.
 [*U.S. History Cards: History Cards Applicatino*](http://google.com/)
 by [Aureliano Nava](http://codelogico.com/).
 
+###Duplication code reduced to a do loop in an if condition. This eliminates this code:
 
+    <% if flash[:notice] %>
+        <div class="alert alert-success">
+            <button class="close" data-dismiss="alert">X</button>
+            <%= flash[:alert]  %>
+
+          </div>
+      <% end %>
+        <% if flash[:alert] %>
+          <div class="alert alert-error">
+            <button class="close" data-dismiss="alert">X</button>
+            <%= flash[:alert]  %>
+         <% end %>
+
+        </div>
+
+###Duplication was replaced with:
+
+<% if flash[:notice] %>
+
+          <% flash.each do |type, message| %>
+
+              <div class="alert" <%= flash_class type %> >
+                <button class="close" data-dismiss="alert">X</button>
+                <%= message  %>
+
+          <% end %>
+
+Note: A helper method, flash_class, receives an argument as type was created in the global application_helper.rb file in views>layouts.
+
+And here is the helper method created:
+
+def flash_class(type)
+    case type
+      when :alert
+        "alert-error"
+      when :notice
+        "alert-success"
+      else
+        ""
+
+    end
+  end
 
 == Welcome to Rails
 
