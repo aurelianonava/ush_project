@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/card.rb" afterPath="$PROJECT_DIR$/app/models/card.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ush_project.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1368609400410" ignored="false" />
-    <file path="/Dummy.txt" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1369163685753" ignored="false" />
+    <file path="/Dummy.txt" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1369163868370" ignored="false" />
     <file path="/application.html.erb" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1369007312866" ignored="false" />
     <file path="/application.css" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1369010726253" ignored="false" />
     <file path="/index.html.erb" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1368830655321" ignored="false" />
@@ -693,7 +690,11 @@
       <created>1369160896065</created>
       <updated>1369160896065</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added category and subcategory models and subcategory added to cards.">
+      <created>1369163873253</created>
+      <updated>1369163873253</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -783,7 +784,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted from user.rb the id# in def fullname method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added category and subcategory models and subcategory added to cards." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -799,6 +800,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Initial US History Cards commit." />
     <MESSAGE value="Deleted from user.rb the id# in def fullname method." />
+    <MESSAGE value="Added category and subcategory models and subcategory added to cards." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
