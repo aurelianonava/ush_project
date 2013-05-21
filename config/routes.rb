@@ -1,4 +1,10 @@
 UshProject::Application.routes.draw do
+  resources :categories
+
+
+  resources :subcategories
+
+
   devise_for :users
 
   devise_scope :user do
