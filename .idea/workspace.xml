@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cards/show.html.erb" afterPath="$PROJECT_DIR$/app/views/cards/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ush_project.iml" afterPath="$PROJECT_DIR$/.idea/ush_project.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ush_project.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1368609400410" ignored="false" />
-    <file path="/Dummy.txt" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1369418476887" ignored="false" />
+    <file path="/Dummy.txt" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1369419873801" ignored="false" />
     <file path="/application.html.erb" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1369007312866" ignored="false" />
     <file path="/application.css" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1369010726253" ignored="false" />
     <file path="/index.html.erb" changelist="8a5b552e-b8e3-4239-ad78-8d31aacd6cf9" time="1368830655321" ignored="false" />
@@ -66,7 +64,7 @@
       <file leaf-file-name="schema.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="47" selection-start="1534" selection-end="1534" vertical-scroll-proportion="0.60570073">
+            <state line="39" column="47" selection-start="1534" selection-end="1534" vertical-scroll-proportion="0.5743243">
               <folding />
             </state>
           </provider>
@@ -794,7 +792,11 @@
       <created>1369171142706</created>
       <updated>1369171142706</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added association from category to subcategory models.">
+      <created>1369419879136</created>
+      <updated>1369419879136</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -821,21 +823,21 @@
     <frame x="324" y="32" width="1112" height="781" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3265306" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32748538" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789117" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855436" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31773585" sideWeight="0.61516035" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924925" sideWeight="0.65870786" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37335834" sideWeight="0.67346936" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35791367" sideWeight="0.68406206" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25703564" sideWeight="0.2866941" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33938548" sideWeight="0.91598916" order="7" side_tool="true" content_ui="tabs" x="35" y="318" width="1066" height="239" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38483965" sideWeight="0.9993606" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789117" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31593794" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.6621622" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -884,7 +886,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed added category and subcategory models and subcategory added to cards. Subcategory and category CURD and views now working." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added association from category to subcategory models." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -902,6 +904,7 @@
     <MESSAGE value="Deleted from user.rb the id# in def fullname method." />
     <MESSAGE value="Added category and subcategory models and subcategory added to cards." />
     <MESSAGE value="Fixed added category and subcategory models and subcategory added to cards. Subcategory and category CURD and views now working." />
+    <MESSAGE value="Added association from category to subcategory models." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1026,7 +1029,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="47" selection-start="1534" selection-end="1534" vertical-scroll-proportion="0.60570073">
+        <state line="39" column="47" selection-start="1534" selection-end="1534" vertical-scroll-proportion="0.5743243">
           <folding />
         </state>
       </provider>
