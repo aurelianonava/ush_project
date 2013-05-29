@@ -19,6 +19,10 @@
             </li>
             <li><%= link_to "New Cards", new_card_path %>
             </li>
+            <li><%= link_to "Category", categories_path %>
+            </li>
+            <li><%= link_to "Subcategory", subcategories_path %>
+            </li>
            </ul>
           <ul class="nav pull-right">
             <% if user_signed_in? %>
@@ -33,7 +37,10 @@
         </div>
       </div>
      </div>
+
+
     <div class="container">
+
 
       <% if flash[:notice] %>
 
@@ -47,7 +54,7 @@
                </div>
 
           <!--<div class="alert alert-success">
-            <button class="close" data-dismiss="alert">X</button>
+            <button class="close" data-dismiss="alert">X</button>-->
             <%= flash[:alert]  %>
 
           </div>
@@ -57,7 +64,7 @@
             <button class="close" data-dismiss="alert">X</button>
             <%= flash[:alert]  %>
 
-          </div>-->
+          </div>
 
       <% end %>
 
